@@ -15,6 +15,7 @@ env/
 .coverage
 coverage.xml
 htmlcov/
+temp_auto_push.bat
 
 # Build artifacts
 build/
@@ -22,7 +23,6 @@ dist/
 *.egg-info/
 
 # IDE
-.vscode/
 .idea/
 
 # Docs
@@ -34,3 +34,5 @@ site/
 # Agent orchestration state
 .sisyphus/
 .omc/
+.gitignore
+branch_structure.json
